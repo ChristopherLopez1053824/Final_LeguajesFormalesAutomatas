@@ -1,0 +1,10 @@
+digraph {
+	rankdir=LR
+	ini [shape=point]
+	q [shape=circle]
+	ini -> q
+	q -> "{'pop'":" 'S', 'push'": 'aSb'} [label=""]
+	q -> "{'pop'":" 'S', 'push'": ''} [label=""]
+	q -> "{'pop'":" 'a', 'push'": ''} [label=a]
+	q -> "{'pop'":" 'b', 'push'": ''} [label=b]
+}
